@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { DB_URI } from "../congif/env.js";
+import { DB_URI } from "../config/env.js";
 
 if (!DB_URI) {
   throw new Error("DB_URI is not defined in environment variables");

@@ -1,5 +1,5 @@
 import express from 'express';
-import { PORT } from './congif/env.js';
+import { PORT } from './config/env.js';
 import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.routes.js';
 import subsRouter from './routes/subs.routes.js';
